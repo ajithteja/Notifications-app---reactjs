@@ -1,0 +1,53 @@
+/* Write your code here. */
+
+body {
+  margin: 0;
+}
+
+.bg-container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.notification {
+  font-family: "roboto";
+  color: #0f172a;
+}
+
+.cart {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 63px;
+  border-radius: 5px;
+  margin: 12px;
+}
+
+.text {
+  font-family: "roboto";
+  color: #ffffff;
+}
+
+.img {
+  height: 18px;
+  margin: 16px;
+}
+
+.info {
+  background-color: #0b69ff;
+}
+
+.success {
+  background-color: #2dca73;
+}
+
+.warning {
+  background-color: #ffb800;
+}
+
+.error {
+  background-color: #ff0b37;
+}
